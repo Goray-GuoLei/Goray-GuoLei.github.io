@@ -1,5 +1,17 @@
-site_name: My Doc
+site_name: lymj
 site_url: https://planBisme.github.io/mymkdocs/
 site_author: 郭磊（lymj）
-theme:
-  name: material
+# theme:
+#   name: material
+ 
+nav: 
+  - 主页 : index.md
+
+  - 算法与数据结构 :
+    - 算法模版 : code/demo.md
+    
+  - 教程:
+    - C: Tutorial/C.md
+    - Java: Tutorial/Java.md
+    - Python: Tutorial/Python.md
+  - 关于我 : aboutme.md
