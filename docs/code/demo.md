@@ -1,4 +1,4 @@
-1.双指针模板：只有一个输入，从两端开始遍历
+### 1.双指针模板：只有一个输入，从两端开始遍历
 
 ```java
 public int fn(int[] arr) {
@@ -22,7 +22,7 @@ public int fn(int[] arr) {
 
 
 
-2.双指针：有两个输入：两个都需要遍历完
+### 2.双指针：有两个输入：两个都需要遍历完
 
 ```java
 public int fn(int[] arr1, int[] arr2) {
@@ -53,7 +53,7 @@ public int fn(int[] arr1, int[] arr2) {
 
 
 
-3.滑动窗口
+###  3.滑动窗口
 
 
 
@@ -79,7 +79,7 @@ public int fn(int[] arr) {
 
 
 
-4.构建前缀和
+### 4.构建前缀和
 
 ```java
 public int[] fn(int[] arr) {
@@ -97,7 +97,7 @@ public int[] fn(int[] arr) {
 
 
 
-5.高效的字符串创建
+### 5.高效的字符串创建
 
 ```
 public String fn(char[] arr) {
@@ -115,7 +115,7 @@ public String fn(char[] arr) {
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
-6.链表：快慢指针
+### 6.链表：快慢指针
 
 
 
@@ -142,7 +142,7 @@ public int fn(ListNode head) {
 
 
 
-7.翻转指针
+### 7.翻转指针
 
 ```java
 public ListNode fn(ListNode head) {
@@ -189,7 +189,7 @@ public int fn(int[] arr, int k) {
 
 
 
-9.单调递增栈4
+### 9.单调递增栈4
 
 
 
@@ -219,7 +219,7 @@ public int fn(int[] arr) {
 
 
 
-10.二叉树DFS（递归）
+### 10.二叉树DFS（递归）
 
 ```java
 public int dfs(TreeNode root) {
@@ -240,7 +240,7 @@ public int dfs(TreeNode root) {
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
-11.二叉树 DFS(迭代)
+### 11.二叉树 DFS(迭代)
 
 ```java
 public int dfs(TreeNode root) {
@@ -269,7 +269,7 @@ public int dfs(TreeNode root) {
 
 ```
 
-12.二叉树 BFS
+### 12.二叉树 BFS
 
 ```java
 public int fn(TreeNode root) {
@@ -302,7 +302,7 @@ public int fn(TreeNode root) {
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
-13图 DFS(递归)
+### 13图 DFS(递归)
 
 ```java
 Set<Integer> seen = new HashSet<>();
@@ -333,7 +333,7 @@ public int dfs(int node, int[][] graph) {
 
 
 
-14.图 DFS(迭代)
+### 14.图 DFS(迭代)
 
 ```java
 public int fn(int[][] graph) {
@@ -364,7 +364,7 @@ public int fn(int[][] graph) {
 
 ```
 
-15.图 BFS
+### 15.图 BFS
 
 ```java
 public int fn(int[][] graph) {
@@ -397,7 +397,7 @@ public int fn(int[][] graph) {
 
 
 
-16 找到堆的前k个元素
+### 16 找到堆的前k个元素
 
 ```java
 public int[] fn(int[] arr, int k) {
@@ -423,7 +423,7 @@ public int[] fn(int[] arr, int k) {
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
-17 二分查找
+### 17 二分查找
 
 ```java
 public int fn(int[] arr, int target) {
