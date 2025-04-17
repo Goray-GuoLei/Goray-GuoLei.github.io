@@ -119,15 +119,3 @@ extra:
   #   description: >-
   #     我们也使用cookies来识别您的重复访问和偏好来衡量我们文档的有效性以及用户是否找到他们要找的东西。
   #     如果你同意,你可以帮助我们让我们的网站更好
-  extra_javascript:
-  - >
-    document.addEventListener('DOMContentLoaded', function() {
-      const qrPopup = document.createElement('div');
-      qrPopup.id = 'wechat-qr-popup';
-      qrPopup.style.cssText = 'display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;background:#fff;padding:20px;border-radius:8px;box-shadow:0 0 15px rgba(0,0,0,0.3);';
-      qrPopup.innerHTML = `
-        <img src="assets/images/wechat-qr.jpg" width="180" style="display:block;margin-bottom:10px;">
-        <button onclick="this.parentNode.style.display='none'" style="width:100%;padding:5px;background:#eee;border:none;border-radius:4px;cursor:pointer;">关闭</button>
-      `;
-      document.body.appendChild(qrPopup);
-    });
