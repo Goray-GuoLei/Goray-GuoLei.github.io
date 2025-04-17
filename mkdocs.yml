@@ -1,76 +1,133 @@
-site_name: 个人博客
+site_name: 山高水长，路遥马急
 site_url: https://planBisme.github.io/mymkdocs/
 site_author: 郭磊（lymj）
+# theme:
+  
+#   palette:
+#     primary: indigo #顶部颜色
 theme:
   name: material
- 
-# theme:
-#   name: material
-#   custom_dir: docs/overrides #覆写路径
-#   # font: #谷歌字体，自行搜索
-#   #   text: Bitter  #文本字体
-#   #   code: Roboto Mono  #代码字体
-#   # logo: assets/favicon.png #左上角logo，可插入图片链接
-#   favicon: https://s2.loli.net/2024/04/26/PmRdM9iGnvOJHgu.png # 网页icon
-#   palette:
-#     - media: "(prefers-color-scheme)"
-#       toggle:
-#         icon: material/link
-#         name: 关闭自动模式
-#     #primary: blue grey
-#     - media: "(prefers-color-scheme: light)"
-#       scheme: default # 日间模式
-#       primary: blue grey # 上方的
-#       accent: blue # 链接等可交互元件的高亮色
-#       # teal
-#       toggle:
-#         icon: material/toggle-switch # 图标
-#         name: 切换至夜间模式 # 鼠标悬浮提示
-#     - media: "(prefers-color-scheme: dark)"
-#       scheme: slate # 夜间模式
-#       primary: black
-#       accent: indigo
-#       # teal
-#       toggle:
-#         icon: material/toggle-switch-off-outline
-#         name: 切换至日间模式
-#   features:
-#     - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-#     # - navigation.instant
-#     #- header.autohide  #自动隐藏
-#     - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-#     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-#     # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
-#     - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
-#     - navigation.top # 返回顶部的按钮 在上滑时出现
-#     - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
-#     - search.suggest # 搜索输入一些字母时推荐补全整个单词
-#     - search.highlight # 搜索出的文章关键词加入高亮
-#     - search.share #搜索分享按钮
-#     - navigation.expand # 打开Tab时左侧目录全部展开
-#     - navigation.indexes #启用节索引页后，可以将文档直接附加到节
-#     - content.tabs.link
-#     - content.tooltips
-#     - content.code.copy #代码复制
-#     - content.action.edit
-#     - content.action.view
-#     - content.code.annotate
-#   language: zh # 一些提示性的文字会变成中文
-#   icon:
-#     repo: fontawesome/brands/github #右上角图标
-#     logo: logo
-# edit_uri: edit/main/docs # 编辑按钮跳转的链接
-# repo_url: https://github.com/Wcowin/Mkdocs-Wcowin # 右上角点击跳转的链接
-# repo_name: Mkdocs-Wcowin # 右上角的名字
+  language: zh # 一些提示性的文字会变成中文
+  # 明亮模式
+  palette: 
+    # - primary: indigo #顶部颜色
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+  - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    # - navigation.instant
+    #- header.autohide  #自动隐藏
+  - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+  - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+  - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+  - navigation.top # 返回顶部的按钮 在上滑时出现
+  - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+  - search.suggest # 搜索输入一些字母时推荐补全整个单词
+  - search.highlight # 搜索出的文章关键词加入高亮
+  - search.share #搜索分享按钮
+  - navigation.expand # 打开Tab时左侧目录全部展开
+  - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+  - content.tabs.link
+  - content.tooltips
+  - content.code.copy #代码复制
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - navigation.top  # 确保启用返回顶部按钮（可选）
+
+
+
 
 nav: 
-  - MkDocs : index.md
+  # - MkDocs : index.md
 
   - 算法与数据结构 :
     - 算法模版 : code/demo.md
     
-  - 教程:
+  - 专业课程:
     - C: Tutorial/C.md
     - Java: Tutorial/Java.md
     - Python: Tutorial/Python.md
   - 关于我 : aboutme.md
+
+
+extra:
+  alternate:
+    - name: 简体中文
+      link: 
+      #https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+      lang: zh   
+    - name: English
+      link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp 
+      lang: en
+    - name: 中国(台湾)
+      link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+      lang: zh-TW
+  generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
+  social:
+    - icon: fontawesome/brands/weixin
+      link: https://raw.githubusercontent.com/planBisme/planBisme.github.io/images/wechat-qr.jpg
+      name: wechat
+      
+        
+
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/wecowin
+      name: telegram
+    - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
+      link: https://twitter.com/wcowin_
+    - icon: fontawesome/brands/github
+      link: https://github.com/Wcowin
+
+    - icon: fontawesome/regular/envelope #联系方式图标
+      link: mailto:<wangkewen821@gmail.com> #邮件联系方式
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/1407028951/lists/4566631?type=series
+
+  analytics:
+    provider: google #谷歌分析
+    property:  ##如果你 clone 了my模板，请将这个修改为你的
+
+    # 网页底部反馈
+    feedback:
+      title: 此页面有帮助吗？
+      ratings:
+        - icon: material/thumb-up-outline #图标可自定义
+          name: This page was helpful
+          data: 1
+          note: >-
+            谢谢你的反馈！
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener">feedback form</a>.
+  # cookies设置（可选）
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     我们也使用cookies来识别您的重复访问和偏好来衡量我们文档的有效性以及用户是否找到他们要找的东西。
+  #     如果你同意,你可以帮助我们让我们的网站更好
+  extra_javascript:
+  - >
+    document.addEventListener('DOMContentLoaded', function() {
+      const qrPopup = document.createElement('div');
+      qrPopup.id = 'wechat-qr-popup';
+      qrPopup.style.cssText = 'display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;background:#fff;padding:20px;border-radius:8px;box-shadow:0 0 15px rgba(0,0,0,0.3);';
+      qrPopup.innerHTML = `
+        <img src="assets/images/wechat-qr.jpg" width="180" style="display:block;margin-bottom:10px;">
+        <button onclick="this.parentNode.style.display='none'" style="width:100%;padding:5px;background:#eee;border:none;border-radius:4px;cursor:pointer;">关闭</button>
+      `;
+      document.body.appendChild(qrPopup);
+    });
