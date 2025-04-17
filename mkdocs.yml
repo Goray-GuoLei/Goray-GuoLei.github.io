@@ -76,8 +76,10 @@ extra:
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/weixin
-      link: https://raw.githubusercontent.com/planBisme/planBisme.github.io/main/images/wechat-qr.jpg
+      link: https://s1.imagehub.cc/images/2025/04/17/8e29442feac3ebaf95881587c72e7cdb.jpg
       name: wechat
+      attributes:
+        target: _blank  # 新标签页打开
       
         
 
