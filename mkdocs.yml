@@ -58,43 +58,49 @@ nav:
     - C: Tutorial/C.md
     - Java: Tutorial/Java.md
     - Python: Tutorial/Python.md
+  
+  - 博客:
+    - blog/index.md
+  
   - 关于我 : aboutme.md
 
 
+
 extra:
-  alternate:
-    - name: 简体中文
-      link: 
-      #https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-      lang: zh   
-    - name: English
-      link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp 
-      lang: en
-    - name: 中国(台湾)
-      link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-      lang: zh-TW
+  #这段语言转换暂时不做，有需要的话再看
+  # alternate:
+  #   - name: 简体中文
+  #     link: 
+  #     #https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #     lang: zh   
+  #   - name: English
+  #     link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp 
+  #     lang: en
+  #   - name: 中国(台湾)
+  #     link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #     lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
+  #联系方式
   social:
+    #微信联系方式
     - icon: fontawesome/brands/weixin
       link: https://s1.imagehub.cc/images/2025/04/17/8e29442feac3ebaf95881587c72e7cdb.jpg
       name: wechat
-      attributes:
-        target: _blank  # 新标签页打开
-      
-        
-
+    #TG联系方式
     - icon: fontawesome/brands/telegram
-      link: https://t.me/wecowin
+      link: https://t.me/sgsclymj
       name: telegram
-    - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
-      link: https://twitter.com/wcowin_
+    # - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
+    #   link: https://twitter.com/wcowin_
+    #github联系方式
     - icon: fontawesome/brands/github
-      link: https://github.com/Wcowin
-
+      link: https://github.com/planBisme
+    #邮箱联系方式
     - icon: fontawesome/regular/envelope #联系方式图标
-      link: mailto:<wangkewen821@gmail.com> #邮件联系方式
+      link: mailto:<lei774793@gmail.com> #邮件联系方式
+    #b站主页
     - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/1407028951/lists/4566631?type=series
+      link: https://space.bilibili.com/387019777
 
   analytics:
     provider: google #谷歌分析
@@ -121,3 +127,41 @@ extra:
   #   description: >-
   #     我们也使用cookies来识别您的重复访问和偏好来衡量我们文档的有效性以及用户是否找到他们要找的东西。
   #     如果你同意,你可以帮助我们让我们的网站更好
+plugins:
+  - search #搜索配置
+  - git-committers:
+      enabled: !ENV [git-committers, false]
+      repository: Wcowin/Mkdocs-Wcowin
+      branch: main
+      exclude:
+        - index.md
+        - tag.md
+        - liuyanban.md
+        - blog/posts/update.md
+        - blog/posts/wkw.md
+        - about/link.md
+  - git-revision-date-localized:
+      enabled: !ENV [git-revision-date-localized, false]
+      type: iso_date
+      enable_creation_date: false
+      exclude:
+        - index.md
+        - tag.md
+        - liuyanban.md
+        - blog/posts/update.md
+        - blog/posts/wkw.md
+        - about/link.md
+        - websitebeauty/linktech.md
+  - blog: #博客配置
+      post_date_format: full #时间
+      draft: true
+      draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
+      post_readtime: true
+      post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
+      post_url_format: "{date}/{slug}"
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+      pagination_url_format: "page/{page}"
+      authors_file: "{blog}/.authors.yml" #作者信息
+  - tags
