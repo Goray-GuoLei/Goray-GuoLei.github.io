@@ -9,7 +9,7 @@ disqus: true
 
 # 留言板
 
-欢迎在下方留言，畅所欲言！
+感谢遇见，欢迎留言 ^ω^
 
 <!-- Giscus 评论系统 -->
 <script src="https://giscus.app/client.js"
