@@ -54,7 +54,7 @@ nav:
   - 算法与数据结构 :
     - 算法模版 : code/demo.md
     - 每日一题 : code/daily-question.md
-    
+
   - 专业课程:
     - C: Tutorial/C.md
     - Java: Tutorial/Java.md
@@ -62,6 +62,9 @@ nav:
   
   - 博客:
     - blog/index.md
+  
+  - 留言板: discussion.md
+    
   
   - 关于我 : aboutme.md
 
