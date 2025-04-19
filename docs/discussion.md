@@ -1,3 +1,6 @@
+
+
+
 ---
 title: 留言板
 hide:
@@ -22,8 +25,9 @@ disqus: true
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="zh-CN"
+        data-placeholder="感谢遇见，欢迎留言 ^ω^"
         crossorigin="anonymous"
         async>
 </script>
