@@ -53,6 +53,7 @@ nav:
 
   - 算法与数据结构 :
     - 算法模版 : code/demo.md
+    - 每日一题 : code/daily-question.md
     
   - 专业课程:
     - C: Tutorial/C.md
@@ -165,3 +166,6 @@ plugins:
       pagination_url_format: "page/{page}"
       authors_file: "{blog}/.authors.yml" #作者信息
   - tags
+
+# extra_css:
+#   - css/custom.css
