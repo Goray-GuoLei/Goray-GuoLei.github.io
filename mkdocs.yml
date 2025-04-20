@@ -1,6 +1,6 @@
 site_name: 山高水长，路遥马急
-site_url: https://planBisme.github.io/mymkdocs/
-site_author: 郭磊（lymj）
+site_url: https://Goray_GuoLei.github.io/mymkdocs/
+site_author: 郭磊（Goray_GuoLei）
 # theme:
   
 #   palette:
@@ -100,7 +100,7 @@ extra:
     #   link: https://twitter.com/wcowin_
     #github联系方式
     - icon: fontawesome/brands/github
-      link: https://github.com/planBisme
+      link: https://github.com/Goray_GuoLei
     #邮箱联系方式
     - icon: fontawesome/regular/envelope #联系方式图标
       link: mailto:<lei774793@gmail.com> #邮件联系方式
