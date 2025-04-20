@@ -7,8 +7,9 @@ site_author: 郭磊（Goray_GuoLei）
 #     primary: indigo #顶部颜色
 theme:
   name: material
-  logo: https://s1.imagehub.cc/images/2025/04/20/4173dda14c7f48eac067d7de732a423e.jpg # 头像图片路径（放在docs/assets/目录下）
-  favicon: assets/favicon.ico
+  #logo: https://s1.imagehub.cc/images/2025/04/20/4173dda14c7f48eac067d7de732a423e.jpg # 头像图片路径（放在docs/assets/目录下）
+  logo: assets/icons/favicon.ico
+  favicon: assets/icons/favicon.ico
   language: zh # 一些提示性的文字会变成中文
   # 明亮模式
   palette: 
