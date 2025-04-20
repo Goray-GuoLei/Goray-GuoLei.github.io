@@ -86,27 +86,27 @@ extra:
   #     link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
   #     lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
-  #联系方式
-  social:
-    #微信联系方式
-    - icon: fontawesome/brands/weixin
-      link: https://s1.imagehub.cc/images/2025/04/17/8e29442feac3ebaf95881587c72e7cdb.jpg
-      name: wechat
-    #TG联系方式
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/sgsclymj
-      name: telegram
-    # - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
-    #   link: https://twitter.com/wcowin_
-    #github联系方式
-    - icon: fontawesome/brands/github
-      link: https://github.com/Goray_GuoLei
-    #邮箱联系方式
-    - icon: fontawesome/regular/envelope #联系方式图标
-      link: mailto:<lei774793@gmail.com> #邮件联系方式
-    #b站主页
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/387019777
+  # #联系方式
+  # social:
+  #   #微信联系方式
+  #   - icon: fontawesome/brands/weixin
+  #     link: https://s1.imagehub.cc/images/2025/04/17/8e29442feac3ebaf95881587c72e7cdb.jpg
+  #     name: wechat
+  #   #TG联系方式
+  #   - icon: fontawesome/brands/telegram
+  #     link: https://t.me/sgsclymj
+  #     name: telegram
+  #   # - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
+  #   #   link: https://twitter.com/wcowin_
+  #   #github联系方式
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/Goray_GuoLei
+  #   #邮箱联系方式
+  #   - icon: fontawesome/regular/envelope #联系方式图标
+  #     link: mailto:<lei774793@gmail.com> #邮件联系方式
+  #   #b站主页
+  #   - icon: fontawesome/brands/bilibili
+  #     link: https://space.bilibili.com/387019777
 
   analytics:
     provider: google #谷歌分析
