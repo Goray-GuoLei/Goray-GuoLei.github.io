@@ -168,4 +168,3 @@
   const img = new Image();
   img.src = 'https://s1.imagehub.cc/images/2025/04/19/d6c30e45726cbd71de5c13bc29d7d490.jpg';
 </script>
-<script src="//code.tidio.co/mhttcdjopfwldx9vpehk3jism4n5st44.js" async></script>

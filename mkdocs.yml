@@ -1,12 +1,14 @@
-site_name: 山高水长，路遥马急
+site_name: 路遥马急
 site_url: https://Goray_GuoLei.github.io/mymkdocs/
 site_author: 郭磊（Goray_GuoLei）
+
 # theme:
-  
 #   palette:
 #     primary: indigo #顶部颜色
 theme:
   name: material
+  logo: https://s1.imagehub.cc/images/2025/04/20/4173dda14c7f48eac067d7de732a423e.jpg # 头像图片路径（放在docs/assets/目录下）
+  favicon: assets/favicon.ico
   language: zh # 一些提示性的文字会变成中文
   # 明亮模式
   palette: 
@@ -45,9 +47,7 @@ theme:
   - content.code.annotate
   - navigation.top  # 确保启用返回顶部按钮（可选）
 
-
-
-
+##目录结构关系
 nav: 
   # - MkDocs : index.md
 
@@ -71,8 +71,9 @@ nav:
   - 关于我 : aboutme.md
 
 
-
+##扩展功能
 extra:
+
   #这段语言转换暂时不做，有需要的话再看
   # alternate:
   #   - name: 简体中文
@@ -85,28 +86,10 @@ extra:
   #   - name: 中国(台湾)
   #     link: https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
   #     lang: zh-TW
+
+
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
-  # #联系方式
-  # social:
-  #   #微信联系方式
-  #   - icon: fontawesome/brands/weixin
-  #     link: https://s1.imagehub.cc/images/2025/04/17/8e29442feac3ebaf95881587c72e7cdb.jpg
-  #     name: wechat
-  #   #TG联系方式
-  #   - icon: fontawesome/brands/telegram
-  #     link: https://t.me/sgsclymj
-  #     name: telegram
-  #   # - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
-  #   #   link: https://twitter.com/wcowin_
-  #   #github联系方式
-  #   - icon: fontawesome/brands/github
-  #     link: https://github.com/Goray_GuoLei
-  #   #邮箱联系方式
-  #   - icon: fontawesome/regular/envelope #联系方式图标
-  #     link: mailto:<lei774793@gmail.com> #邮件联系方式
-  #   #b站主页
-  #   - icon: fontawesome/brands/bilibili
-  #     link: https://space.bilibili.com/387019777
+
 
   analytics:
     provider: google #谷歌分析

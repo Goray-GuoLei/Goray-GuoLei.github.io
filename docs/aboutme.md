@@ -14,3 +14,5 @@
 - <i class="fab fa-github"></i> [GitHub](https://github.com/Goray_GuoLei)
 - <i class="far fa-envelope"></i> [邮箱](mailto:lei774793@gmail.com)
 - <i class="fab fa-bilibili"></i> [哔哩哔哩](https://space.bilibili.com/387019777)
+
+<script src="//code.tidio.co/mhttcdjopfwldx9vpehk3jism4n5st44.js" async></script>
