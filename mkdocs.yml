@@ -47,6 +47,21 @@ theme:
   - content.action.view
   - content.code.annotate
   - navigation.top  # 确保启用返回顶部按钮（可选）
+  
+  #部分图表
+  icon:
+    repo: fontawesome/brands/github #右上角图标
+    previous: fontawesome/solid/angle-left
+    # top: fontawesome/solid/angles-up
+    alternate: fontawesome/solid/language
+
+
+
+edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+repo_url: https://github.com/Goray-GuoLei/Goray-GuoLei.github.io # 右上角点击跳转的链接
+repo_name: Goray-GuoLei.github.io # 右上角的名字
+copyright: Copyright &copy; 2025 Wcowin Goray-GuoLei # 左下角的版权声明
+
 
 ##目录结构关系
 nav: 
@@ -154,7 +169,19 @@ plugins:
       #     case: lower
       pagination_url_format: "page/{page}"
       authors_file: "{blog}/.authors.yml" #作者信息
-  - tags
+  # - tags
+  
+extra_css:
+  - stylesheets/extra.css #css样式表路径
+  - https://static.zeoseven.com/zsft/292/main/result.css #字体样式表
 
+
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+
+  
 # extra_css:
-#   - css/custom.css
+#   - https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500&family=JetBrains+Mono&display=swap
+#   - stylesheets/extra.css #css样式表路径
+
