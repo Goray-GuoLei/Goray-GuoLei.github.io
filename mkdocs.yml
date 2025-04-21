@@ -7,6 +7,8 @@ site_author: 郭磊（Goray_GuoLei）
 #     primary: indigo #顶部颜色
 theme:
   name: material
+
+  custom_dir: docs/overrides
   #logo: https://s1.imagehub.cc/images/2025/04/20/4173dda14c7f48eac067d7de732a423e.jpg # 头像图片路径（放在docs/assets/目录下）
   logo: assets/icons/favicon.ico
   favicon: assets/icons/favicon.ico
@@ -47,7 +49,14 @@ theme:
   - content.action.view
   - content.code.annotate
   - navigation.top  # 确保启用返回顶部按钮（可选）
-  
+  # - content.code.annotate  # 可选代码高亮
+  #- content.tabs           # 可选标签页
+  #  - content.code.copy      # 可选代码复制
+  - content.math                  # 关键：启用数学公式支持
+  #- navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+
+
+
   #部分图表
   icon:
     repo: fontawesome/brands/github #右上角图标
@@ -83,8 +92,9 @@ nav:
 
   - 随笔便签: mood/some-tips.md
     
-  
-  - 关于我 : aboutme.md
+  - 关于: 
+    - 作者信息: about/aboutme.md
+    - 网站声明: about/claim.md
 
 
 ##扩展功能
@@ -105,6 +115,9 @@ extra:
 
 
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
+
+  
+  # footer: assets/footer.html
 
 
   analytics:
@@ -184,4 +197,8 @@ extra_css:
 # extra_css:
 #   - https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500&family=JetBrains+Mono&display=swap
 #   - stylesheets/extra.css #css样式表路径
+
+extra_javascript:
+  - assets/js/mathjax-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
