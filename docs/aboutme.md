@@ -36,6 +36,10 @@
   </div>
 </div>
 
+
+<!-- Chat Widget -->
+<script src="//code.tidio.co/mhttcdjopfwldx9vpehk3jism4n5st44.js" async></script>
+
 <style>
 .profile-card {
   max-width: 600px;
@@ -116,3 +120,5 @@
   font-size: 0.9rem;
 }
 </style>
+
+
