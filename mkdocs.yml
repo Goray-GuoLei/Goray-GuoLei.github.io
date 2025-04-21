@@ -57,7 +57,7 @@ theme:
 
 
 
-edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+# edit_uri: edit/main/docs # 编辑按钮跳转的链接 
 repo_url: https://github.com/Goray-GuoLei/Goray-GuoLei.github.io # 右上角点击跳转的链接
 repo_name: Goray-GuoLei.github.io # 右上角的名字
 copyright: Copyright &copy; 2025  Goray-GuoLei # 左下角的版权声明
