@@ -84,13 +84,20 @@ nav:
     - C: Tutorial/C.md
     - Java: Tutorial/Java.md
     - Python: Tutorial/Python.md
+    - 本科毕设: Tutorial/graduate.md
   
   - 博客:
     - blog/index.md
   
-  - 留言板: discussion.md
+  - 吃喝玩乐 :
+    - 美食: fun/food.md
+    - 景点: fun/interest.md
+    - 电影: fun/movie.md
+    - 游戏: fun/game.md 
 
   - 随笔便签: mood/some-tips.md
+
+  - 留言板: discussion.md
     
   - 关于: 
     - 作者信息: about/aboutme.md
