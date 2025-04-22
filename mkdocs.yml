@@ -81,7 +81,7 @@ nav:
     - 每日一题 : code/daily-question.md
 
   - 专业课程:
-    - C: Tutorial/C.md
+    - C: Tutorial/C_C++.md
     - Java: Tutorial/Java.md
     - Python: Tutorial/Python.md
     - 本科毕设: Tutorial/graduate.md
