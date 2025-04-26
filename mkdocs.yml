@@ -89,7 +89,12 @@ nav:
     - 计算机网络: Tutorial/network.md
   
     - 本科毕设: Tutorial/graduate.md
-  
+  - 工程项目:
+    - 个人项目: project/personal.md
+    - 课程设计: project/course-design.md
+    - 实习项目: project/internship.md
+    - 其他项目: project/other.md
+    - bladex开发框架: project/bladex.md
   - 博客:
     - blog/index.md
   

@@ -250,3 +250,7 @@ public class Day21Medium {
     }
 }
 ```
+
+---
+2025-04-26  Sat 统计隐藏数组数目
+---
